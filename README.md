@@ -17,6 +17,7 @@ In this exercise we covered various concepts of openCV like
   g) CvScalar (val) pointer to an array (containing upto 4 double precision flaoting point numbers)
 
 - constructors
+
   a) cvSize() for (a)to (f) above
   
   b) for CvScalar we have 3 constructors
@@ -32,6 +33,7 @@ In this exercise we covered various concepts of openCV like
    use of cvMat (one column multiple rows or vice versa for conjugate/transpose)
    
 - Colorspaces
+
     a)CIE - LAB(L=black/white, A=green/magenta, B=blue/yellow)
     
     b)RGB 
