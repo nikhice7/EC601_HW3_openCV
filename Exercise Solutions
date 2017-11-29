@@ -5,5 +5,5 @@ CvMat has a format (int rows, int columns, int type) and can consist of any of t
   - 3 8 bit unsigned integer triplets
   - any other format
   
-A program reads the data in the same format starting from rows to columns to type. 
+A program reads the object data in the same format starting from rows to columns to type. 
 The pixel structure order is bit_depth, channel type and number of channels  
