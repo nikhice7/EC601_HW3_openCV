@@ -1,4 +1,4 @@
-In this exercise we covered various concepts like 
+In this exercise we covered various concepts of openCV like 
 
  - primitive data types(structures)
   a) CvPoint (x,y) integers  
@@ -9,6 +9,20 @@ In this exercise we covered various concepts like
   f) CvRect (x,y,w,h) integers
   g) CvScalar (val) pointer to an array (containing upto 4 double precision flaoting point numbers)
   
- -
- - use of cvMat when we need a vector
+ - constructors
+  a) cvSize() for (a)to (f) above
+  b) for CvScalar we have 3 constructors
+   i) cvScalar (upto four arguments and assigned to respective member of val)
+  ii) cvRealScalar ( one argument for first member of val and others as 0)
+ iii) cvScalarAll (one argument set to all four members)
+ 
+ - when we need a vector
+   use of cvMat (one column multiple rows or vice versa for conjugate/transpose)
+   
+ - Colorspaces
+ - Smoothing
+ - Thresholding
+ - Template Macthing
+ - Object Tracking
+ 
  
