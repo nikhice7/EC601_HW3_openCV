@@ -1,9 +1,9 @@
 Q1. How does a program read the cvMat object, in particular, what is the order of the pixel structure?
 Answer:- 
-CvMat has a format (int rows, int columns, int type) and can consist of any of the following
+CvMat has a format (int rows, int columns, int type) and the type can consist of any of the following
   - 32 bit floating points'
   - 3 8 bit unsigned integer triplets
-  - any other format like CV (bit depth,channel type, number of channels)
+  - any other format like (bit depth,channel type, number of channels)
   
 A program reads the object data in the same format starting from rows to columns to type. 
 The pixel structure order is bit_depth, channel type and number of channels.
