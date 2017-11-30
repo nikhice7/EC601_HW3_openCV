@@ -44,12 +44,46 @@ In this exercise we covered various concepts of openCV like
     
     e)CMYK
     
-- Smoothing
+- Smoothing (to reduce noise or camera artifacts, or to reduce resolution)
+
+  a) LPF ( to reduce noises like Gaussian noise, Salt-and-pepper noise, 
+  Poisson noise and Speckle noise)
+    
+    i) Box Filter - CV_BLUR simplest one ( mean of pixels around the input)
+   
+   ii) Gaussian Filter - most useful though not the fastest (sum of inputs arranged in an array)
+   
+  iii) Median Filter - (median of pixels around the input)
+  
+  b) HPF - to find the edges in an image
 
 - Thresholding
 
+a) cvThreshold() - keeps the values above or below a defined limit
+
+b) cvAdaptiveThreshold() - uses two threshold parameters (block size, constant)
+
 - Template Matching
 
+  Algorithm
+  
+  a) Slide the template image on the source image
+   
+  b) Calculate NCC at each sliding position
+
+  c) Best match: where NCC is maximum
+
 - Object Tracking
+
+  a) Dense Optical flow
+  
+  b) Kalman Filtering
+  
+  c) Meanshift and Camshift
+  
+  d) Single object trackers
+  
+  e) Multiple object track finding algorithms
+   
  
  
