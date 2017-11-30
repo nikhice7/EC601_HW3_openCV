@@ -11,5 +11,7 @@ The pixel structure order is bit_depth, channel type and number of channels.
 Q2.1 Run the code in ColorImage.cpp and comment on the outputs.
 Answer:- It shows convesion from original image in RGB to different colorspaces namely YCrCb & HSV.
 
+
+
 Q2.2 Print out the values of the pixel at (20,25) in the RGB, YCbCr and HSV versions of the image. 
 What are the ranges of pixel values in each channel of each of the above mentioned colorspaces?
