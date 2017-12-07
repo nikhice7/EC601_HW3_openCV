@@ -15,3 +15,12 @@ Answer:- It shows convesion from original image in RGB to different colorspaces 
 
 Q2.2 Print out the values of the pixel at (20,25) in the RGB, YCbCr and HSV versions of the image. 
 What are the ranges of pixel values in each channel of each of the above mentioned colorspaces?
+
+r: 224; g: 132; b: 122; 
+y: 159; cb: 176; cr: 105
+h: 9;s: 123; v: 229
+
+Range :- 
+RGB - 0-255
+YCbCr - 0-255
+HSV- 0-360
