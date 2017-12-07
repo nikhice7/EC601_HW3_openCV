@@ -24,3 +24,5 @@ Range :-
 RGB - 0-255
 YCbCr - 0-255
 HSV- 0-360
+
+Q3. Median filter seems to work the best.
