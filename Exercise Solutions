@@ -26,3 +26,9 @@ YCbCr - 0-255
 HSV- 0-360
 
 Q3. Median filter seems to work the best.
+
+Q4.1 Changing the threshold basically highights a particular intensity zone over other ranging from black to white.
+Q4.2 Binary thresholding is useful when we have two objects with different set of intensities. 
+However, we loose details like brighness and sometimes can contain unwanted pixel values which might produce error.
+Q4.3 Adaptive thresholding is better because we can manipulate the thresholding methods 
+to improve the quality of the results and get improved sharpness.
